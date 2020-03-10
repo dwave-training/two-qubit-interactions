@@ -26,12 +26,13 @@ Q = {(0, 0): 2, (0, 1): -2, (0, 2): -2, (1, 2): 2}
 chainstrength = 2
 numruns = 1000
 
-dwave_sampler = DWaveSampler()
+dwave_sampler = DWaveSampler(solver={'qpu': True})
 edges =  dwave_sampler.edgelist
 embedding = find_embedding(Q, edges)
 print(embedding)
 
-response = FixedEmbeddingComposite(DWaveSampler(), embedding).sample_qubo(Q, chain_strength=chainstrength, num_reads=numruns)
+sampler = FixedEmbeddingComposite(dwave_sampler, embedding)
+response = sampler.sample_qubo(Q, chain_strength=chainstrength, num_reads=numruns)
 
 for sample, energy, num, cbf in response.data(['sample', 'energy', 'num_occurrences', 'chain_break_fraction']):
     print(sample, energy, num, cbf)
