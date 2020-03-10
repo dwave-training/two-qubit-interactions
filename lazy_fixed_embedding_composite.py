@@ -20,7 +20,7 @@ chainstrength = 4
 numruns = 100
 Q = {(0, 0): 2, (0, 1): -2, (0, 2): -2, (1, 2): 2}
 
-sampler = LazyFixedEmbeddingComposite(DWaveSampler())
+sampler = LazyFixedEmbeddingComposite(DWaveSampler(solver={'qpu': True}))
 response = sampler.sample_qubo(Q, chain_strength=chainstrength, num_reads=numruns)
 print(sampler.properties['embedding'])
 
