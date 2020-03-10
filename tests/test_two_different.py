@@ -34,6 +34,7 @@ class TestSmoke(unittest.TestCase):
         self.assertTrue(str2 in str(value))
         self.assertTrue(str3 in str(value))
         self.assertTrue(str4 in str(value))
+        self.assertEqual(77, len(str(value)))
 
 if __name__ == '__main__':
     unittest.main()

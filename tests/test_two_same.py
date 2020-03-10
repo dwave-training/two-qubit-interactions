@@ -25,7 +25,7 @@ class TestSmoke(unittest.TestCase):
 
         value = subprocess.check_output(["python", file_path])
 
-        # Check the expected energy
+        # Check the output
         str1 = '{0: 0, 1: 0} 0.0'
         str2 = '{0: 1, 1: 1} 0.0'
         str3 = '{0: 1, 1: 0} 1.0'
@@ -34,6 +34,7 @@ class TestSmoke(unittest.TestCase):
         self.assertTrue(str2 in str(value))
         self.assertTrue(str3 in str(value))
         self.assertTrue(str4 in str(value))
+        self.assertEqual(len(str(value)), 75)
 
 if __name__ == '__main__':
     unittest.main()
