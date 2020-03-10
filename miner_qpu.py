@@ -27,8 +27,8 @@ chainstrength = 2
 numruns = 1000
 
 dwave_sampler = DWaveSampler()
-A = dwave_sampler.edgelist
-embedding = find_embedding(Q, A)
+edges =  dwave_sampler.edgelist
+embedding = find_embedding(Q, edges)
 print(embedding)
 
 response = FixedEmbeddingComposite(DWaveSampler(), embedding).sample_qubo(Q, chain_strength=chainstrength, num_reads=numruns)
