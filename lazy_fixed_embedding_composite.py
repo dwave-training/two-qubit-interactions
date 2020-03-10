@@ -24,5 +24,5 @@ sampler = LazyFixedEmbeddingComposite(DWaveSampler())
 response = sampler.sample_qubo(Q, chain_strength=chainstrength, num_reads=numruns)
 print(sampler.properties['embedding'])
 
-for smpl, energy in response.data(['sample', 'energy']):
-    print(smpl, energy)
+for sample, energy in response.data(['sample', 'energy']):
+    print(sample, energy)

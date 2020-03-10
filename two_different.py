@@ -21,5 +21,5 @@ Q = {(0, 0): -1, (1, 1): -1, (0, 1): 2}
 results = exactsolver.sample_qubo(Q)
 
 # print the results
-for smpl, energy in results.data(['sample', 'energy']):
-    print(smpl, energy)
+for sample, energy in results.data(['sample', 'energy']):
+    print(sample, energy)
