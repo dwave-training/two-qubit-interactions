@@ -58,7 +58,7 @@ Run the command
 The implies function in logic has the following truth table:
 
 === === ==========
-q_1 q_2 result
+X   Y   result
 --- --- ----------
 F   F   T
 F   T   T 
