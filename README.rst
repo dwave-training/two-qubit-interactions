@@ -48,16 +48,16 @@ The implies function in logic has the following truth table:
 | F | T | T |
 | T | F | F |
 | T | T | T |
- === === ===
+
 
 In QUBO variables, we can write the problem as
 
- === === ===+
+ === === ===
 | 0 | 0 | 0 |
 | 0 | 1 | 0 |
 | 1 | 0 | 1 |
 | 1 | 1 | 0 |
- === === ===
+
 
 and thus we want to penalize the (1 0) solution, relative to the others.
 Your results should agree with this.
