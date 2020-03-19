@@ -9,7 +9,13 @@ writing QUBOs for much larger problems.
 Exercise 1 
 ----------
 
-Run ``two_same.py``.  Read through the code and take a look at the
+Run the command
+
+.. code-block:: bash
+
+  python two_same.py
+
+Read through the code and take a look at the
 structure of the program. Notice the basic parts:
 
 - Obtain a sampler/solver
@@ -27,7 +33,11 @@ lower energy than the solutions (0 1) and (1 0).
 Exercise 2 
 ----------
 
-Run ``two_different.py``.
+Run the command
+
+.. code-block:: bash
+
+  python two_different.py
 
 In this exercise, we want to penalize the two qubit solutions in which the 
 qubits have the same values; we want to favor the two qubit solutions in 
@@ -39,7 +49,11 @@ lower energy than the solutions (0 0) and (1 1).
 Exercise 3 
 ----------
 
-Run ``two_implies.py``.
+Run the command
+
+.. code-block:: bash
+
+  python two_implies.py
 
 The implies function in logic has the following truth table:
 
