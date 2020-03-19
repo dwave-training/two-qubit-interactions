@@ -57,12 +57,12 @@ Run the command
 
 The implies function in logic has the following truth table:
 
-    |---|---|---|
-    | F | F | T |
-    | F | T | T |
-    | T | F | F |
-    | T | T | T |
-    |---|---|---|
+|---|---|---|
+| F | F | T |
+| F | T | T |
+| T | F | F |
+| T | T | T |
+|---|---|---|
 
 
 In QUBO variables, we can write the problem as
