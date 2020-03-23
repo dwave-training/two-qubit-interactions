@@ -65,7 +65,7 @@ is false.
 Hence, the implies function in logic has the following truth table:
 
 === === ==========
-X   Y   result
+X   Y   X -> Y
 --- --- ----------
 F   F   T
 F   T   T 
