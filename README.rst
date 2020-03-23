@@ -55,7 +55,14 @@ Run the command
 
   python two_implies.py
 
-The implies function in logic has the following truth table:
+Here is a definition of the implies function, from Wikipedia:
+
+The concept of logical implication is associated with an operation on two 
+logical values, typically the values of two propositions, that produces a 
+value of false just in case the first operand is true and the second operand
+is false.
+
+Hence, the implies function in logic has the following truth table:
 
 === === ==========
 X   Y   result
