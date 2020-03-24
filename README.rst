@@ -77,7 +77,7 @@ T   T   T
 In QUBO variables, we can write the problem as
 
 === === ==========
-q_1 q_2 result
+x_1 x_2 result
 --- --- ----------
 0   0   0
 0   1   0
