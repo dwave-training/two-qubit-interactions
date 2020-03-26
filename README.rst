@@ -74,10 +74,10 @@ T   T   T
 === === ==========
 
 
-In QUBO variables, we can write the problem as
+In QUBO variables (0 = False, 1 = True), we can write the problem as
 
 === === ==========
-x_1 x_2 result
+x_1 x_2 result (energy)
 --- --- ----------
 0   0   0
 0   1   0
@@ -86,5 +86,6 @@ x_1 x_2 result
 === === ==========
 
 
-and thus we want to penalize the (1 0) solution, relative to the others.
+and and thus we want to penalize the (1 0) solution, relative to the others.
+This explains why the energy of (1 0) is 1, whereas the energy of the other states is zero.
 Your results should agree with this.
