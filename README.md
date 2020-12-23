@@ -6,7 +6,7 @@ writing QUBOs for much larger problems.
 
 ## Exercise 1
 
-To run the exercise 1 demo, type the command:
+To run the exercise 1 demo from the command-line, type the command:
 
 ```python two_same.py```
 
@@ -27,7 +27,7 @@ lower energy than the solutions (0 1) and (1 0).
 
 ## Exercise 2 
 
-To run the exercise 2 demo, type the command:
+To run the exercise 2 demo from the command-line, type the command:
 
 ```python two_different.py```
 
@@ -40,7 +40,7 @@ lower energy than the solutions (0 0) and (1 1).
 
 ## Exercise 3 
 
-To run the exercise 3 demo, type the command:
+To run the exercise 3 demo from the command-line, type the command:
 
 ```python two_implies.py```
 
