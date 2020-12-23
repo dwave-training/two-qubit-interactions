@@ -44,8 +44,8 @@ To run the exercise 3 demo from the command-line, type the command:
 
 ```python two_implies.py```
 
-Here is a definition of the implies function, from Wikipedia:
-
+Here is a definition of the implies function, from 
+Wikipedia[https://en.wikiversity.org/wiki/Logical_implication]:
 The concept of logical implication is associated with an operation on two 
 logical values, typically the values of two propositions, that produces a 
 value of false just in case the first operand is true and the second operand
