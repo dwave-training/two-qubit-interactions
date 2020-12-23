@@ -53,27 +53,21 @@ is false.
 
 Hence, the implies function in logic has the following truth table:
 
-=== === ==========
-X   Y   X -> Y
---- --- ----------
-F   F   T
-F   T   T 
-T   F   F
-T   T   T
-=== === ==========
-
+| X | Y |X -> Y|
+|-|-|------|
+|F|F|T|
+|F|T|T|
+|T|F|F|
+|T|T|T|
 
 In QUBO variables (0 = False, 1 = True), we can write the problem as
 
-=== === ==========
-x_1 x_2 result (energy)
---- --- ----------
-0   0   0
-0   1   0
-1   0   1
-1   1   0
-=== === ==========
-
+|x_1|x_2|result (energy)|
+|---|---|---------------|
+|0|0|0|
+|0|1|0|
+|1|0|1|
+|1|1|0|
 
 and and thus we want to penalize the (1 0) solution, relative to the others.
 This explains why the energy of (1 0) is 1, whereas the energy of the other 
