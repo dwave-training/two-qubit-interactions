@@ -73,3 +73,7 @@ and and thus we want to penalize the (1 0) solution, relative to the others.
 This explains why the energy of (1 0) is 1, whereas the energy of the other 
 states is zero.
 Your results should agree with this.
+
+## License
+
+Released under the Apache License 2.0. See [LICENSE](LICENSE) file.
