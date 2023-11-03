@@ -10,11 +10,7 @@ writing QUBOs for much larger problems.
 
 ## Exercise 1
 
-To run the exercise 1 demo from the command-line, type the command:
-
-```python two_same.py```
-
-Read through the code and take a look at the
+Open ``two_same.py``. Read through the code and take a look at the
 structure of the program. Notice the basic parts:
 
 - Obtain a sampler/solver
@@ -31,11 +27,7 @@ lower energy than the solutions (0 1) and (1 0).
 
 ## Exercise 2 
 
-To run the exercise 2 demo from the command-line, type the command:
-
-```python two_different.py```
-
-In this exercise, we want to penalize the two qubit solutions in which the 
+Open ``two_different.py``. In this exercise, we want to penalize the two qubit solutions in which the 
 qubits have the same values; we want to favor the two qubit solutions in 
 which the qubits have different values.
 
@@ -44,11 +36,7 @@ lower energy than the solutions (0 0) and (1 1).
 
 ## Exercise 3 
 
-To run the exercise 3 demo from the command-line, type the command:
-
-```python two_implies.py```
-
-Here is a definition of the implies function, from 
+Open ``two_implies.py``. Here is a definition of the implies function, from 
 [Wikiversity](https://en.wikiversity.org/wiki/Logical_implication):
 The concept of logical implication is associated with an operation on two 
 logical values, typically the values of two propositions, that produces a 
